@@ -1,5 +1,5 @@
 
-                                 SpringBoot整合Dubbo
+                                                    <p align="center"> SpringBoot整合Dubbo </p>
 
 
 注解形式:
