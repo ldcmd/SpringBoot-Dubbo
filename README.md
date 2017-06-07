@@ -239,6 +239,7 @@
    (1)创建接口
    
    包名:com.chenmeidan.springboot.service
+   
    接口名:DubboServiceImpl
    ----------------------------------------
     public interface DubboService {
