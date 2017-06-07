@@ -319,7 +319,9 @@
 6.创建springboot启动类
 
   类名:SpringDubboApplication
+  
   包名:com.chenmeidan.springboot
+  
   ----------------------------------------
     @SpringBootApplication
     @ImportResource("classpath:dubbo-consumer.xml") //加载dubbo.xml配置文件
