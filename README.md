@@ -298,8 +298,9 @@
     ------------------------------------------------------
 5.创建控制类:用于调用业务层
 
-   包名:com.chenmeidan.springboot.dubbo <br>
-   类名:DubboController <br>
+   包名:com.chenmeidan.springboot.dubbo 
+   
+   类名:DubboController 
    --------------------------
        @Controller
     public class DubboController {
