@@ -32,7 +32,9 @@
       (2)选择打包方式为jar
       
 2.导入依赖 pom
+
       (1)sringboot起始依赖 版本1.5.3
+      
          <parent>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-parent</artifactId>
@@ -40,6 +42,7 @@
             <relativePath />
         </parent>
       (2)dubbo依赖         版本2.5.3
+      
          #一定要除去spring的相关依赖  dubbo自带spring的版本与我们使用的版本冲突
          <dependency>
             <groupId>com.alibaba</groupId>
@@ -81,12 +84,16 @@
             <artifactId>zkclient</artifactId>
             <version>${zkclient.version}</version>
         </dependency>
+        
         (4)web依赖
+        
          <dependency>
             <groupId>org.springframework.boot</groupId>
              <artifactId>spring-boot-starter-web</artifactId>
          </dependency>
+         
         (5)dubbo的服务接口依赖
+        
             <!--dubbo 服务接口  -->
             <dependency>
                 <groupId>com.liudan.springboot</groupId>
@@ -125,9 +132,11 @@
 
         (1)提供者应用名
         <dubbo:application name="dubbo-provider" />
+        
         (2)需要暴露的接口
            package表示需要暴露的接口的地址
         <dubbo:annotation package="com.chenmeidan.springboot" />
+        
         (3)将dubbo服务发布zookpeer注册中心
         <dubbo:registry protocol="zookeeper" address="192.168.238.128:2181" />
 
@@ -188,6 +197,7 @@
 
       (1)选择简单项目方式
       (2)选择打包方式为jar
+      
 2.引入依赖
 
         (1)需要引入提供者依赖(你自己建立的提供者依赖)
