@@ -248,7 +248,9 @@
    (2)创建实现类
    
      包名:com.chenmeidan.springboot.service.impl
+     
      类名:DubboServiceImpl
+     
      --------------------------------------
 
         @Service  //注意是spring的注解
